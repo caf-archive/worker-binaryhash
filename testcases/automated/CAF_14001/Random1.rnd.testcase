@@ -1,0 +1,18 @@
+---
+tag: "CAF_14001/Random1.rnd"
+testCaseInformation:
+  associatedTickets: CAF-2662
+  comments: "CAF_14001/Random1.rnd"
+  description: "Binary Hash Worker - generate SHA-1 hash for the input file"
+  testCaseId: "CAF_14001"
+inputData:
+  containerId: null
+  inputFile: "CAF_14001/Random1.rnd"
+  storageReference: null
+  useDataStore: true
+expectedOutputData:
+  comparisonType: "TEXT"
+  expectedContentFile: null
+  expectedSimilarityPercentage: 0
+  hashResult: "cbd2393dad2e748c33f36e458a85dbbe6da62d32"
+  status: "COMPLETED"

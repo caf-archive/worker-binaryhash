@@ -1,0 +1,18 @@
+---
+tag: "CAF_14003/invalid.doc"
+testCaseInformation:
+  testCaseId: "CAF_14003"
+  associatedTickets: "CAF-1244"
+  description: "Invalid Storage Reference sent to Binary Hash Worker"
+  comments: "CAF_14003/invalid.doc"
+inputData:
+  useDataStore: true
+  containerId: "b591d8c6615c4af99d7915719b01259c"
+  inputFile: "CAF_14003/invalid.doc"
+  storageReference: "blahblahblah"
+expectedOutputData:
+  expectedContentFile: null
+  expectedSimilarityPercentage: 0
+  comparisonType: "TEXT"
+  status: "SOURCE_FAILED"
+  hashResult: null

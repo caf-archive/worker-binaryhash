@@ -1,0 +1,18 @@
+---
+tag: "FirstTest.txt"
+testCaseInformation:
+  testCaseId: "FirstTest.txt"
+  associatedTickets: null
+  description: null
+  comments: "FirstTest.txt"
+inputData:
+  useDataStore: true
+  containerId: "66d1c33ec8c74fee99d207e7521a93ec"
+  inputFile: "FirstTest.txt"
+expectedOutputData:
+  expectedContentFile: null
+  expectedSimilarityPercentage: 0
+  comparisonType: "TEXT"
+  status: "COMPLETED"
+  hashResult: "6dc8fec61903607eaf3e06064fcf1796ee8230e1"
+

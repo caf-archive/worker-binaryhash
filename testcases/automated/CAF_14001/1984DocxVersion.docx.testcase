@@ -1,0 +1,18 @@
+---
+tag: "CAF_14001/1984DocxVersion.docx"
+testCaseInformation:
+  associatedTickets: CAF-2662
+  comments: "CAF_14001/1984DocxVersion.docx"
+  description: "Binary Hash Worker - generate SHA-1 hash for the input file"
+  testCaseId: "CAF_14001"
+inputData:
+  containerId: null
+  inputFile: "CAF_14001/1984DocxVersion.docx"
+  storageReference: null
+  useDataStore: true
+expectedOutputData:
+  comparisonType: "TEXT"
+  expectedContentFile: null
+  expectedSimilarityPercentage: 0
+  hashResult: "4de8ada4a0d292492b3fbb3e0e2636951f7ff6bb"
+  status: "COMPLETED"

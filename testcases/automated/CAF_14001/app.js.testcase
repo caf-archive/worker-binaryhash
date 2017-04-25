@@ -1,0 +1,18 @@
+---
+tag: "CAF_14001/app.js"
+testCaseInformation:
+  associatedTickets: CAF-2662
+  comments: "CAF_14001/app.js"
+  description: "Binary Hash Worker - generate SHA-1 hash for the input file"
+  testCaseId: "CAF_14001"
+inputData:
+  containerId: null
+  inputFile: "CAF_14001/app.js"
+  storageReference: null
+  useDataStore: true
+expectedOutputData:
+  comparisonType: "TEXT"
+  expectedContentFile: null
+  expectedSimilarityPercentage: 0
+  hashResult: "2b8ea80f12d3449aaaafb2389a4613185d3133a1"
+  status: "COMPLETED"

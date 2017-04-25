@@ -1,0 +1,7 @@
+{
+    "prefetchBuffer": 0,
+    "inputQueue": "BinaryHashWorker-input-1",
+    "retryQueue": "BinaryHashWorker-input-1",
+    "rejectedQueue": "BinaryHashWorker-rejected-1",
+    "retryLimit": 2
+}
