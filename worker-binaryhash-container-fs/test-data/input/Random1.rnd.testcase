@@ -1,0 +1,18 @@
+---
+tag: "Random1.rnd"
+testCaseInformation:
+  associatedTickets: null
+  comments: "Random1.rnd"
+  description: null
+  testCaseId: "Random1.rnd"
+inputData:
+  containerId: null
+  inputFile: "Random1.rnd"
+  storageReference: null
+  useDataStore: true
+expectedOutputData:
+  comparisonType: "TEXT"
+  expectedContentFile: null
+  expectedSimilarityPercentage: 0
+  hashResult: "cbd2393dad2e748c33f36e458a85dbbe6da62d32"
+  status: "COMPLETED"

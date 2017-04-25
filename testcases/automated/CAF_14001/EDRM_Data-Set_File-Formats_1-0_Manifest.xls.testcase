@@ -1,0 +1,18 @@
+---
+tag: "EDRM_Data-Set_File-Formats_1-0_Manifest.xls"
+testCaseInformation:
+  associatedTickets: null
+  comments: "EDRM_Data-Set_File-Formats_1-0_Manifest.xls"
+  description: null
+  testCaseId: "EDRM_Data-Set_File-Formats_1-0_Manifest.xls"
+inputData:
+  containerId: null
+  inputFile: "EDRM_Data-Set_File-Formats_1-0_Manifest.xls"
+  storageReference: null
+  useDataStore: true
+expectedOutputData:
+  comparisonType: "TEXT"
+  expectedContentFile: null
+  expectedSimilarityPercentage: 0
+  hashResult: "bfb886dac4027240e27f7ef5c3f580698cd442dc"
+  status: "COMPLETED"

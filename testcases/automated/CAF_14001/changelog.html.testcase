@@ -1,0 +1,18 @@
+---
+tag: "changelog.html"
+testCaseInformation:
+  associatedTickets: null
+  comments: "changelog.html"
+  description: null
+  testCaseId: "changelog.html"
+inputData:
+  containerId: null
+  inputFile: "changelog.html"
+  storageReference: null
+  useDataStore: true
+expectedOutputData:
+  comparisonType: "TEXT"
+  expectedContentFile: null
+  expectedSimilarityPercentage: 0
+  hashResult: "d4cca233340ae21413fe59e2e8fc2d3e59334388"
+  status: "COMPLETED"

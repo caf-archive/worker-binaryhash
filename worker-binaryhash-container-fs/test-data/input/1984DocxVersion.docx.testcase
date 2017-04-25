@@ -1,0 +1,18 @@
+---
+tag: "1984DocxVersion.docx"
+testCaseInformation:
+  associatedTickets: null
+  comments: "1984DocxVersion.docx"
+  description: null
+  testCaseId: "1984DocxVersion.docx"
+inputData:
+  containerId: null
+  inputFile: "1984DocxVersion.docx"
+  storageReference: null
+  useDataStore: true
+expectedOutputData:
+  comparisonType: "TEXT"
+  expectedContentFile: null
+  expectedSimilarityPercentage: 0
+  hashResult: "1b6e6361acb664fcb8a90623abd2bfcf0cffcd72"
+  status: "COMPLETED"

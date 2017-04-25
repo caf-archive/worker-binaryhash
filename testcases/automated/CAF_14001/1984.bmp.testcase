@@ -1,0 +1,18 @@
+---
+tag: "1984.bmp"
+testCaseInformation:
+  associatedTickets: null
+  comments: "1984.bmp"
+  description: null
+  testCaseId: "1984.bmp"
+inputData:
+  containerId: null
+  inputFile: "1984.bmp"
+  storageReference: null
+  useDataStore: true
+expectedOutputData:
+  comparisonType: "TEXT"
+  expectedContentFile: null
+  expectedSimilarityPercentage: 0
+  hashResult: "19543a2573dbc03c128138f31d6bd0b0a09b5d7d"
+  status: "COMPLETED"
