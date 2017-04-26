@@ -1,13 +1,13 @@
 ---
-tag: "OfficeUlysses.pptx"
+tag: "CAF_14001/OfficeUlysses.pptx"
 testCaseInformation:
-  associatedTickets: null
-  comments: "OfficeUlysses.pptx"
-  description: null
-  testCaseId: "OfficeUlysses.pptx"
+  associatedTickets: CAF_2662
+  comments: "CAF_14001/OfficeUlysses.pptx"
+  description: "Binary Hash Worker - generate SHA-1 hash for the input file"
+  testCaseId: "CAF_14001"
 inputData:
   containerId: null
-  inputFile: "OfficeUlysses.pptx"
+  inputFile: "CAF_14001/OfficeUlysses.pptx"
   storageReference: null
   useDataStore: true
 expectedOutputData:

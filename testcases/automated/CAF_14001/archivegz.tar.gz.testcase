@@ -1,13 +1,13 @@
 ---
-tag: "archivegz.tar.gz"
+tag: "CAF_14001/archivegz.tar.gz"
 testCaseInformation:
-  associatedTickets: null
-  comments: "archivegz.tar.gz"
-  description: null
-  testCaseId: "archivegz.tar.gz"
+  associatedTickets: CAF_2662
+  comments: "CAF_14001/archivegz.tar.gz"
+  description: "Binary Hash Worker - generate SHA-1 hash for the input file"
+  testCaseId: "CAF_14001"
 inputData:
   containerId: null
-  inputFile: "archivegz.tar.gz"
+  inputFile: "CAF_14001/archivegz.tar.gz"
   storageReference: null
   useDataStore: true
 expectedOutputData:

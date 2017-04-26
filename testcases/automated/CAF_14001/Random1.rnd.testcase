@@ -1,13 +1,13 @@
 ---
-tag: "Random1.rnd"
+tag: "CAF_14001/Random1.rnd"
 testCaseInformation:
-  associatedTickets: null
-  comments: "Random1.rnd"
-  description: null
-  testCaseId: "Random1.rnd"
+  associatedTickets: CAF_2662
+  comments: "CAF_14001/Random1.rnd"
+  description: "Binary Hash Worker - generate SHA-1 hash for the input file"
+  testCaseId: "CAF_14001"
 inputData:
   containerId: null
-  inputFile: "Random1.rnd"
+  inputFile: "CAF_14001/Random1.rnd"
   storageReference: null
   useDataStore: true
 expectedOutputData:

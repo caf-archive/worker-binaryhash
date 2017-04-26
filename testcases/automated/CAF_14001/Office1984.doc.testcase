@@ -1,13 +1,13 @@
 ---
-tag: "Office1984.doc"
+tag: "CAF_14001/Office1984.doc"
 testCaseInformation:
-  associatedTickets: null
-  comments: "Office1984.doc"
-  description: null
-  testCaseId: "Office1984.doc"
+  associatedTickets: CAF_2662
+  comments: "CAF_14001/Office1984.doc"
+  description: "Binary Hash Worker - generate SHA-1 hash for the input file"
+  testCaseId: "CAF_14001"
 inputData:
   containerId: null
-  inputFile: "Office1984.doc"
+  inputFile: "CAF_14001/Office1984.doc"
   storageReference: null
   useDataStore: true
 expectedOutputData:

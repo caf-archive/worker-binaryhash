@@ -1,13 +1,13 @@
 ---
-tag: "changelog.html"
+tag: "CAF_14001/changelog.html"
 testCaseInformation:
-  associatedTickets: null
-  comments: "changelog.html"
-  description: null
-  testCaseId: "changelog.html"
+  associatedTickets: CAF_2662
+  comments: "CAF_14001/changelog.html"
+  description: "Binary Hash Worker - generate SHA-1 hash for the input file"
+  testCaseId: "CAF_14001"
 inputData:
   containerId: null
-  inputFile: "changelog.html"
+  inputFile: "CAF_14001/changelog.html"
   storageReference: null
   useDataStore: true
 expectedOutputData:

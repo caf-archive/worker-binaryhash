@@ -1,13 +1,13 @@
 ---
-tag: "app.js"
+tag: "CAF_14001/app.js"
 testCaseInformation:
-  associatedTickets: null
-  comments: "app.js"
-  description: null
-  testCaseId: "app.js"
+  associatedTickets: CAF_2662
+  comments: "CAF_14001/app.js"
+  description: "Binary Hash Worker - generate SHA-1 hash for the input file"
+  testCaseId: "CAF_14001"
 inputData:
   containerId: null
-  inputFile: "app.js"
+  inputFile: "CAF_14001/app.js"
   storageReference: null
   useDataStore: true
 expectedOutputData:

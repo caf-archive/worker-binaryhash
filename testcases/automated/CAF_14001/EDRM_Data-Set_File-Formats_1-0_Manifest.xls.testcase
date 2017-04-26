@@ -1,13 +1,13 @@
 ---
-tag: "EDRM_Data-Set_File-Formats_1-0_Manifest.xls"
+tag: "CAF_14001/EDRM_Data-Set_File-Formats_1-0_Manifest.xls"
 testCaseInformation:
-  associatedTickets: null
-  comments: "EDRM_Data-Set_File-Formats_1-0_Manifest.xls"
-  description: null
-  testCaseId: "EDRM_Data-Set_File-Formats_1-0_Manifest.xls"
+  associatedTickets: CAF_2662
+  comments: "CAF_14001/EDRM_Data-Set_File-Formats_1-0_Manifest.xls"
+  description: "Binary Hash Worker - generate SHA-1 hash for the input file"
+  testCaseId: "CAF_14001"
 inputData:
   containerId: null
-  inputFile: "EDRM_Data-Set_File-Formats_1-0_Manifest.xls"
+  inputFile: "CAF_14001/EDRM_Data-Set_File-Formats_1-0_Manifest.xls"
   storageReference: null
   useDataStore: true
 expectedOutputData:

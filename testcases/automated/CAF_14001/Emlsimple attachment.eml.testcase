@@ -1,13 +1,13 @@
 ---
-tag: "Emlsimple attachment.eml"
+tag: "CAF_14001/Emlsimple attachment.eml"
 testCaseInformation:
-  associatedTickets: null
-  comments: "Emlsimple attachment.eml"
-  description: null
-  testCaseId: "Emlsimple attachment.eml"
+  associatedTickets: CAF_2662
+  comments: "CAF_14001/Emlsimple attachment.eml"
+  description: "Binary Hash Worker - generate SHA-1 hash for the input file"
+  testCaseId: "CAF_14001"
 inputData:
   containerId: null
-  inputFile: "Emlsimple attachment.eml"
+  inputFile: "CAF_14001/Emlsimple attachment.eml"
   storageReference: null
   useDataStore: true
 expectedOutputData:

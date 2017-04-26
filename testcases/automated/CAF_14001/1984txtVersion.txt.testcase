@@ -1,13 +1,13 @@
 ---
-tag: "1984txtVersion.txt"
+tag: "CAF_14001/1984txtVersion.txt"
 testCaseInformation:
-  associatedTickets: null
-  comments: "1984txtVersion.txt"
-  description: null
-  testCaseId: "1984txtVersion.txt"
+  associatedTickets: CAF_2662
+  comments: "CAF_14001/1984txtVersion.txt"
+  description: "Binary Hash Worker - generate SHA-1 hash for the input file"
+  testCaseId: "CAF_14001"
 inputData:
   containerId: null
-  inputFile: "1984txtVersion.txt"
+  inputFile: "CAF_14001/1984txtVersion.txt"
   storageReference: null
   useDataStore: true
 expectedOutputData:

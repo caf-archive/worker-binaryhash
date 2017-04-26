@@ -1,13 +1,13 @@
 ---
-tag: "largeFile.pdf"
+tag: "CAF_14001/largeFile.pdf"
 testCaseInformation:
-  associatedTickets: null
-  comments: "largeFile.pdf"
-  description: null
-  testCaseId: "largeFile.pdf"
+  associatedTickets: CAF_2662
+  comments: "CAF_14001/largeFile.pdf"
+  description: "Binary Hash Worker - generate SHA-1 hash for the input file"
+  testCaseId: "CAF_14001"
 inputData:
   containerId: null
-  inputFile: "largeFile.pdf"
+  inputFile: "CAF_14001/largeFile.pdf"
   storageReference: null
   useDataStore: true
 expectedOutputData:
