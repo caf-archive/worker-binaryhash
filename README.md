@@ -16,7 +16,7 @@ This is the shared library defining public classes that constitute the worker in
 This project contains the actual implementation of the Binary Hash Worker. It can be found in [worker-binaryhash](worker-binaryhash).
 
 ### worker-binaryhash-container  
-This project builds a Docker image that packages the Binary Hash Worker for deployment. It can be found in [worker-binaryhash-container](worker-binaryhash-container).
+This project builds a Docker image that packages the Binary Hash Worker for deployment. It can be found in [worker-binaryhash-container](worker-binaryhash-container-fs).
 
 ### worker-binaryhash-testing
 This contains implementations of the testing framework to allow for integration testing of the Binary Hash Worker. The project can be found in [worker-binaryhash-testing](worker-binaryhash-testing).
