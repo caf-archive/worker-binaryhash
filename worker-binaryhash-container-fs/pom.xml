@@ -302,7 +302,7 @@
                         <!-- Configuration for the worker-binaryhash-container image -->
                         <image>
                             <alias>worker-binaryhash-fs</alias>
-                            <name>rh7-artifactory.svs.hpeswlab.net:8443/caf/worker-binaryhash-fs:${project.version}</name>
+                            <name>cafinternal/worker-binaryhash:${project.version}</name>
                             <build>
                                 <maintainer>zara.mckeown@hpe.com</maintainer>
                                 <from>java:8</from>
