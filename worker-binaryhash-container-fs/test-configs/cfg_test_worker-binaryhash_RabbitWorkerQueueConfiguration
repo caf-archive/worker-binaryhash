@@ -3,6 +3,6 @@
     "inputQueue": "BinaryHashWorker-input-1",
     "retryQueue": "BinaryHashWorker-input-1",
     "rejectedQueue": "BinaryHashWorker-rejected-1",
-    "maxPriority": 255,
+    "maxPriority": 32,
     "retryLimit": 2
 }
