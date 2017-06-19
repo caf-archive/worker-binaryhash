@@ -28,7 +28,7 @@
     
     <name>Worker-Binaryhash</name>
     <description>The Binary Hash Worker performs a SHA-1 hash on the specified file and returns the hash digest as a 40 character hex-encoded string.</description>
-    <url>https://pages.github.hpe.com/caf/data-processing-service/</url>
+    <url>https://cafdataprocessing.github.io/data-processing-service/</url>
 
     <parent>
         <groupId>com.github.cafapi</groupId>
