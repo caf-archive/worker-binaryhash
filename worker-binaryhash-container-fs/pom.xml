@@ -215,7 +215,7 @@
                             <goal>push</goal>
                         </goals>
                         <configuration>
-                            <image>worker-binaryhash-fs</image>
+                            <filter>worker-binaryhash-fs</filter>
                         </configuration>
                     </execution>
                 </executions>
