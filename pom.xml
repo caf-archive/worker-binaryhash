@@ -33,11 +33,11 @@
     <parent>
         <groupId>com.github.cafapi</groupId>
         <artifactId>caf-common</artifactId>
-        <version>1.8.0-191</version>
+        <version>1.13.0-239</version>
         <relativePath />
     </parent>
     
-     <licenses>
+    <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
             <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
@@ -97,9 +97,9 @@
     </properties>
 
     <!--
-    The dependency management section is a mechanism for centralizing dependency information.
-    The CAF worker framework is specified.
--->
+        The dependency management section is a mechanism for centralizing dependency information.
+        The CAF worker framework is specified.
+    -->
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -117,9 +117,9 @@
         <module>worker-binaryhash-shared</module>
         <module>worker-binaryhash-testing</module>
         <module>worker-binaryhash-container-fs</module>
-     </modules>
+    </modules>
      
-     <scm>
+    <scm>
         <connection>scm:git:https://github.com/CAFDataProcessing/worker-binaryhash.git</connection>
         <developerConnection>scm:git:https://github.com/CAFDataProcessing/worker-binaryhash.git</developerConnection>
         <url>https://github.com/CAFDataProcessing/worker-binaryhash</url>
