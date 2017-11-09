@@ -66,11 +66,6 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.cafapi</groupId>
-            <artifactId>container-cert-script</artifactId>
-            <type>tar.gz</type>
-        </dependency>
-        <dependency>
             <groupId>com.github.cafdataprocessing</groupId>
             <artifactId>worker-binaryhash-testing</artifactId>
             <version>${project.version}</version>
@@ -305,7 +300,7 @@
                             <name>cafinternal/prereleases:worker-binaryhash-${project.version}</name>
                             <build>
                                 <maintainer>zara.mckeown@hpe.com</maintainer>
-                                <from>java:8</from>
+                                <from>cafapi/opensuse-jre8:1.1</from>
                                 <labels>
                                     <Build.Number>${project.version}</Build.Number>
                                     <Build.Date>${maven.build.timestamp}</Build.Date>
@@ -314,11 +309,11 @@
                                     <caf.worker-framework.version>${caf.worker-framework.version}</caf.worker-framework.version>
                                 </labels>
                                 <!-- The entry point will be the worker.sh executable. -->
-                                <entryPoint>
+                                <cmd>
                                     <exec>
                                         <args>/maven/worker.sh</args>
                                     </exec>
-                                </entryPoint>
+                                </cmd>
                                 <healthCheck>
                                     <cmd>curl -f http://localhost:8081/healthcheck || exit 1</cmd>
                                 </healthCheck>
@@ -350,14 +345,6 @@
                                             <dependencySet>
                                                 <useProjectArtifact>false</useProjectArtifact>
                                                 <scope>runtime</scope>
-                                            </dependencySet>
-                                            <dependencySet>
-                                                <useProjectArtifact>false</useProjectArtifact>
-                                                <useTransitiveFiltering>true</useTransitiveFiltering>
-                                                <unpack>true</unpack>
-                                                <includes>
-                                                    <include>com.github.cafapi:container-cert-script</include>
-                                                </includes>
                                             </dependencySet>
                                         </dependencySets>
                                     </inline>
