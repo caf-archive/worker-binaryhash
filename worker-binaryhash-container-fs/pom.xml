@@ -300,7 +300,7 @@
                             <name>cafinternal/prereleases:worker-binaryhash-${project.version}</name>
                             <build>
                                 <maintainer>zara.mckeown@hpe.com</maintainer>
-                                <from>cafapi/opensuse-jre8:1.1</from>
+                                <from>cafapi/opensuse-jre8:1.2</from>
                                 <labels>
                                     <Build.Number>${project.version}</Build.Number>
                                     <Build.Date>${maven.build.timestamp}</Build.Date>
