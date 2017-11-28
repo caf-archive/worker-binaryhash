@@ -30,6 +30,12 @@
     <groupId>com.github.cafdataprocessing</groupId>
     <artifactId>worker-binaryhash</artifactId>
     
+    <properties>
+        <dockerHubOrganization>cafdataprocessing</dockerHubOrganization>
+        <dockerCafDataProcessingOrg>${dockerImagePrefix}${dockerHubOrganization}${dockerOrgSeperator}</dockerCafDataProcessingOrg>
+        <dockerProjectVersion>${dockerVersionSeperator}${project.version}</dockerProjectVersion>
+    </properties>
+    
     <dependencyManagement>
         <dependencies>
             <dependency>

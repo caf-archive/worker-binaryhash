@@ -297,7 +297,7 @@
                         <!-- Configuration for the worker-binaryhash-container image -->
                         <image>
                             <alias>worker-binaryhash-fs</alias>
-                            <name>cafinternal/prereleases:worker-binaryhash-${project.version}</name>
+                            <name>${dockerCafDataProcessingOrg}worker-binaryhash${dockerProjectVersion}</name>
                             <build>
                                 <maintainer>zara.mckeown@hpe.com</maintainer>
                                 <from>cafapi/opensuse-jre8:1.2</from>
