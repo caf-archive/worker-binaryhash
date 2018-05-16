@@ -102,6 +102,7 @@
         <dockerHubOrganization>cafdataprocessing</dockerHubOrganization>
         <dockerCafDataProcessingOrg>${dockerImagePrefix}${dockerHubOrganization}${dockerOrgSeperator}</dockerCafDataProcessingOrg>
         <dockerProjectVersion>${dockerVersionSeperator}${project.version}</dockerProjectVersion>
+        <gitRepo>https://github.com/CAFDataProcessing/worker-binaryhash</gitRepo>
     </properties>
 
     <!--
@@ -130,7 +131,7 @@
     <scm>
         <connection>scm:git:https://github.com/CAFDataProcessing/worker-binaryhash.git</connection>
         <developerConnection>scm:git:https://github.com/CAFDataProcessing/worker-binaryhash.git</developerConnection>
-        <url>https://github.com/CAFDataProcessing/worker-binaryhash</url>
+        <url>${gitRepo}</url>
     </scm>
 
 </project>
