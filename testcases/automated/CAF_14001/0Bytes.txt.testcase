@@ -14,5 +14,5 @@ expectedOutputData:
   comparisonType: "TEXT"
   expectedContentFile: null
   expectedSimilarityPercentage: 0
-  hashResult: "2918090f90e0b9b70934f901f6a07435665b6ce3"
+  hashResult: "1534f5b19832a077f140d1d9c86c5705898c69c3"
   status: "COMPLETED"
