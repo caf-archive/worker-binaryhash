@@ -84,9 +84,3 @@ If you need to do a rolling upgrade when `worker-binaryhash-shared` has not chan
 - Spin up containers of the new version of `worker-binaryhash`.
 - Replace old versions of producers of `BinaryHashWorkerTask` with new ones.
 - Allow the queue with the old versions of `BinaryHashWorkerTask` to drain then shut down the old worker containers.
-
-## Maintainers
-
-The following people are contacts for developing and maintaining this module:
-
-- Zara McKeown (Belfast UK, zara.mckeown@hpe.com)

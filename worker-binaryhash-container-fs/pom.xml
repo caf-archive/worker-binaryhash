@@ -276,7 +276,6 @@
                             <alias>config</alias>
                             <name>${project.artifactId}-test-config:${project.version}</name>
                             <build>
-                                <maintainer>zara.mckeown@hpe.com</maintainer>
                                 <assembly>
                                     <basedir>/config</basedir>
                                     <inline>
@@ -299,7 +298,6 @@
                             <alias>worker-binaryhash-fs</alias>
                             <name>${dockerCafDataProcessingOrg}worker-binaryhash${dockerProjectVersion}</name>
                             <build>
-                                <maintainer>zara.mckeown@hpe.com</maintainer>
                                 <from>cafapi/opensuse-jre8:1.2</from>
                                 <labels>
                                     <Build.Number>${project.version}</Build.Number>
