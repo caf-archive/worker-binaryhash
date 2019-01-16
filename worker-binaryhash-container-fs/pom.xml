@@ -58,8 +58,8 @@
         <dependency>
             <groupId>com.github.cafdataprocessing</groupId>
             <artifactId>worker-binaryhash</artifactId>
-            <version>${project.version}</version>
         </dependency>
+        <!-- Test dependencies -->
         <dependency>
             <groupId>com.github.workerframework</groupId>
             <artifactId>worker-testing-integration</artifactId>
@@ -68,9 +68,7 @@
         <dependency>
             <groupId>com.github.cafdataprocessing</groupId>
             <artifactId>worker-binaryhash-testing</artifactId>
-            <version>${project.version}</version>
             <scope>test</scope>
-            <type>jar</type>
         </dependency>
     </dependencies>
 

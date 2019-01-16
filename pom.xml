@@ -116,6 +116,21 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <dependency>
+                <groupId>com.github.cafdataprocessing</groupId>
+                <artifactId>worker-binaryhash</artifactId>
+                <version>2.3.0-SNAPSHOT</version>
+            </dependency> 
+            <dependency>
+                <groupId>com.github.cafdataprocessing</groupId>
+                <artifactId>worker-binaryhash-shared</artifactId>
+                <version>2.3.0-SNAPSHOT</version>
+            </dependency> 
+            <dependency>
+                <groupId>com.github.cafdataprocessing</groupId>
+                <artifactId>worker-binaryhash-testing</artifactId>
+                <version>2.3.0-SNAPSHOT</version>
+            </dependency> 
         </dependencies>
     </dependencyManagement>
 
