@@ -101,6 +101,7 @@
         <dockerCafDataProcessingOrg>${dockerImagePrefix}${dockerHubOrganization}${dockerOrgSeperator}</dockerCafDataProcessingOrg>
         <dockerProjectVersion>${dockerVersionSeperator}${project.version}</dockerProjectVersion>
         <gitRepo>https://github.com/CAFDataProcessing/worker-binaryhash</gitRepo>
+        <enforceCorrectDependencies>true</enforceCorrectDependencies>
     </properties>
 
     <!--
