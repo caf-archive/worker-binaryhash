@@ -52,7 +52,7 @@ public class BinaryHashWorker extends AbstractWorker<BinaryHashWorkerTask, Binar
                             final long resultSizeThreshold)
         throws InvalidTaskException
     {
-        super(task, outputQueue, codec);
+        super(task, outputQueue, codec, null);
         this.dataStore = Objects.requireNonNull(dataStore);
     }
 
