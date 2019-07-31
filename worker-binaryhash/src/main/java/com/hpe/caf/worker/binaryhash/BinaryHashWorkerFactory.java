@@ -59,7 +59,7 @@ public class BinaryHashWorkerFactory extends AbstractWorkerFactory<BinaryHashWor
     public Worker createWorker(BinaryHashWorkerTask task, WorkerTaskData workerTaskData) throws InvalidTaskException
     {
         return new BinaryHashWorker(task, getDataStore(), getConfiguration().getOutputQueue(),
-                                    getCodec(), getConfiguration().getResultSizeThreshold());
+                                    getCodec(), workerTaskData, getConfiguration().getResultSizeThreshold());
     }
 
     @Override

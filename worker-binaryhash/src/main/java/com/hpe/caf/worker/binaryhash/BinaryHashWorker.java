@@ -49,10 +49,11 @@ public class BinaryHashWorker extends AbstractWorker<BinaryHashWorkerTask, Binar
                             final DataStore dataStore,
                             final String outputQueue,
                             final Codec codec,
+                            final WorkerTaskData taskData,
                             final long resultSizeThreshold)
         throws InvalidTaskException
     {
-        super(task, outputQueue, codec, null);
+        super(task, outputQueue, codec, taskData);
         this.dataStore = Objects.requireNonNull(dataStore);
     }
 
