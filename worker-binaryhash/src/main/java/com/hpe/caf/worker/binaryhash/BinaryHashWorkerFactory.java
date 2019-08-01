@@ -22,6 +22,7 @@ import com.hpe.caf.api.worker.DataStore;
 import com.hpe.caf.api.worker.InvalidTaskException;
 import com.hpe.caf.api.worker.Worker;
 import com.hpe.caf.api.worker.WorkerException;
+import com.hpe.caf.api.worker.WorkerTaskData;
 import com.hpe.caf.worker.AbstractWorkerFactory;
 
 /**
@@ -55,10 +56,10 @@ public class BinaryHashWorkerFactory extends AbstractWorkerFactory<BinaryHashWor
      * @throws InvalidTaskException
      */
     @Override
-    public Worker createWorker(BinaryHashWorkerTask task) throws InvalidTaskException
+    public Worker createWorker(BinaryHashWorkerTask task, WorkerTaskData workerTaskData) throws InvalidTaskException
     {
         return new BinaryHashWorker(task, getDataStore(), getConfiguration().getOutputQueue(),
-                                    getCodec(), getConfiguration().getResultSizeThreshold());
+                                    getCodec(), workerTaskData, getConfiguration().getResultSizeThreshold());
     }
 
     @Override
