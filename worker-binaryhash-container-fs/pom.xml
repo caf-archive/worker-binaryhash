@@ -53,6 +53,10 @@
             <groupId>com.github.cafdataprocessing</groupId>
             <artifactId>worker-binaryhash</artifactId>
         </dependency>
+        <dependency>
+            <groupId>jakarta.xml.bind</groupId>
+            <artifactId>jakarta.xml.bind-api</artifactId>
+        </dependency>
         <!-- Test dependencies -->
         <dependency>
             <groupId>com.github.workerframework</groupId>
