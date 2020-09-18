@@ -124,7 +124,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>${maven.compiler.version}</version>
                 <executions>
                     <execution>
                         <phase>test-compile</phase>
@@ -137,8 +136,8 @@
 
             <!-- Plugin for running integration tests in the integration-test phase -->
             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-failsafe-plugin</artifactId>
-                <version>${maven.failsafe.version}</version>
                 <executions>
                     <execution>
                         <goals>
@@ -161,7 +160,7 @@
                     <environmentVariables>
                         <CAF_APPNAME>test/worker-binaryhash</CAF_APPNAME>
                         <CAF_CONFIG_PATH>${test.configs}</CAF_CONFIG_PATH>
-                        <CAF_INTEGRATIONTESTS_FS_PATH>${caf.integrationtests.fs.path}</CAF_INTEGRATIONTESTS_FS_PATH>
+                        <CAF_INTEGRATIONTESTS_FS_PATH>\\${docker.host.address}@${webdav.apache.port}\webdav</CAF_INTEGRATIONTESTS_FS_PATH>
                     </environmentVariables>
                 </configuration>
             </plugin>
@@ -172,7 +171,7 @@
             <plugin>
                 <groupId>io.fabric8</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
-                <version>${fabric8.docker.maven.version}</version>
+                <version>0.20.1</version>
                 <executions>
                     <!-- Build the container in compile phase. -->
                     <execution>
