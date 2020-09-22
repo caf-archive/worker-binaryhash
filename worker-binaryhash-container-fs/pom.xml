@@ -171,7 +171,7 @@
             <plugin>
                 <groupId>io.fabric8</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
-                <version>0.20.1</version>
+                <version>0.26.1</version>
                 <executions>
                     <!-- Build the container in compile phase. -->
                     <execution>
@@ -213,11 +213,10 @@
                     <watchInterval>500</watchInterval>
                     <logDate>default</logDate>
                     <verbose>true</verbose>
-                    <autoPull>always</autoPull>
                     <images>
                         <image>
                             <alias>webdav</alias>
-                            <name>cloudesire/webdav</name>
+                            <name>${dockerHubPublic}/cloudesire/webdav</name>
                             <run>
                                 <volumes>
                                     <bind>
@@ -246,7 +245,7 @@
                         <!-- Run the RabbitMQ image. -->
                         <image>
                             <alias>rabbitmq</alias>
-                            <name>rabbitmq:3-management</name>
+                            <name>${dockerHubPublic}/library/rabbitmq:3-management</name>
                             <run>
                                 <ports>
                                     <port>${rabbitmq.ctrl.port}:15672</port>
@@ -293,7 +292,7 @@
                             <alias>worker-binaryhash-fs</alias>
                             <name>${dockerCafDataProcessingOrg}worker-binaryhash${dockerProjectVersion}</name>
                             <build>
-                                <from>cafinternal/prereleases:opensuse-jre11-3.1.0-SNAPSHOT</from>
+                                <from>${dockerHubPrivate}/cafinternal/prereleases:opensuse-jre11-3.1.0-SNAPSHOT</from>
                                 <labels>
                                     <Build.Number>${project.version}</Build.Number>
                                     <Build.Date>${maven.build.timestamp}</Build.Date>
