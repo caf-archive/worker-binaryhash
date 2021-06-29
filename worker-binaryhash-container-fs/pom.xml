@@ -296,7 +296,7 @@
                             <alias>worker-binaryhash-fs</alias>
                             <name>${dockerCafDataProcessingOrg}worker-binaryhash${dockerProjectVersion}</name>
                             <build>
-                                <from>${dockerHubPublic}/cafapi/opensuse-jre11:3</from>
+                                <from>${dockerHubPublic}/cafapi/prereleases:opensuse-jre11-3.5.0-SNAPSHOT</from>
                                 <labels>
                                     <caf.worker-framework.version>${caf.worker-framework.version}</caf.worker-framework.version>
                                 </labels>
